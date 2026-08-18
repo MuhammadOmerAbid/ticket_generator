@@ -19,6 +19,7 @@ build/
 *.egg-info/
 .next/
 out/
+*.tsbuildinfo
 
 # IDE & OS
 .idea/
@@ -38,3 +39,7 @@ coverage/
 .coverage
 htmlcov/
 .pytest_cache/
+
+# Database
+*.db
+backend/data/
